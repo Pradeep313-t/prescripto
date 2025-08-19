@@ -9,7 +9,7 @@ const AdminContextProvider = (props) => {
     const [aToken, setAToken] = useState(localStorage.getItem('aToken')?localStorage.getItem('aToken'): "")
 
     // Provide fallback backend URL if environment variable is not set
-    const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000"
+    const backendUrl = "https://prescripto-backend-umb3.onrender.com"
 
     // get the all added doctors here
     const [doctors, setDoctors] = useState([]);
