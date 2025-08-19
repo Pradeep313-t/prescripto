@@ -10,7 +10,7 @@ const AppContextProvider = (props) => {
     const currencySymbol = '₹'
     
     // Backend URL configuration
-    const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000"
+    const backendUrl = "https://prescripto-backend-umb3.onrender.com"
 
     // State to hold doctors data and loading/error states
     const [doctorsData, setDoctorsData] = useState([]);
